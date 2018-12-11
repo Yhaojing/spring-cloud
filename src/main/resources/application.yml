@@ -1,0 +1,15 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: provider-user
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/simple?characterEncoding=utf8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: none
